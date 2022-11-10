@@ -656,7 +656,7 @@ mark, .mark {
 
 .update__title_inner {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     padding-left: 10px;
     padding-top: 10px;
     color: #fff;
@@ -701,8 +701,9 @@ mark, .mark {
 }
 
 .hero__wrapper .countdown__module {
-    max-width: 1200px;
-    margin: 40px auto;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 10px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
 
@@ -710,8 +711,8 @@ mark, .mark {
 
 @media (min-width: 769px) {
     .hero__wrapper .countdown__module {
-        max-width: 800px;
-        margin: 80px auto;
+        max-width: 1000px;
+        margin: 20px auto;
     }
 }
 
@@ -722,7 +723,6 @@ mark, .mark {
         -ms-flex-direction: column;
             flex-direction: column;
         -ms-flex-pack: justify;
-        justify-content: space-between;
     }
 
     .hero__icon {
@@ -1992,6 +1992,7 @@ mark, .mark {
 .countdown__module {
     display: table;
     width: 100%;
+    height: 30%;
     margin: 20px 0;
     color: #c2c2c2;
 }
@@ -1999,7 +2000,7 @@ mark, .mark {
 .countdown__module p {
     display: table-cell;
     vertical-align: middle;
-    font-size: 10px;
+    font-size: 100px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
@@ -2015,14 +2016,14 @@ mark, .mark {
 
 @media (min-width: 1200px) {
     .countdown__module p {
-        font-size: 16px;
+        font-size: 25px;
     }
 }
 
 .countdown__module span {
     display: block;
     font-family: "Work Sans", sans-serif;
-    font-size: 30px;
+    font-size: 150px !important;
     font-weight: 300;
     line-height: 1;
     color: #fff;
