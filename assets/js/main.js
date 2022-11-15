@@ -16,14 +16,14 @@
 		self.countdown(_date, function (event) {
 			self.html(event.strftime(_strf));
 			if (self.attr('contentLock') == "true")
-		{
-		$("#contentLock").text("Content Lock " + contentLock);
-
-		}
-		else{
-		
-		$("#updateLive").text("Update Live " + updateLive);		
-		}
+			{
+				$("#contentLock").text(contentLock);
+				$("#contentLockTitle").text("Content Lock:");
+			}
+			else{
+				$("#updateLive").text(updateLive);
+				$("#updateLiveTitle").text("Update Live:");
+			}
 		}).removeClass("hide");
 
 

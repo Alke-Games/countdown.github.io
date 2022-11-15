@@ -49,6 +49,11 @@ img {
     border: 0;
 }
 
+@font-face {
+    font-family: 'Clash'; /*a name to be used later*/
+    src: url(../fonts/Supercell-Magic_5.ttf); /*URL to font*/
+}
+
 .page-wrap {
     overflow: hidden;
 }
@@ -352,8 +357,8 @@ body {
     padding: 0;
     line-height: 1.6;
     font-size: 16px;
-    font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-family: "Clash", sans-serif;
     color: #0c0c0e;
 }
 
@@ -379,10 +384,10 @@ a, input, textarea, select {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+    font-weight: 200;
     line-height: 1.4em;
     color: #0c0c0e;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Clash", sans-serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -656,7 +661,7 @@ mark, .mark {
 
 .update__title_inner {
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 10px;
     padding-top: 10px;
     color: #fff;
@@ -669,16 +674,38 @@ mark, .mark {
     line-height: 36px;
     border: 2px solid #fff;
     border-radius: 50%;
-    font-family: "Work Sans", sans-serif;
-    font-size: 20px;
+    font-family: "Clash", sans-serif;
+    font-size: 10px;
     font-weight: 300;
     color: #fff;
 }
 
 .hero__title {
-    font-size: 30px;
-    font-weight: 500;
-    color: #c91c1c;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D83E3E;
+}
+
+#contentLockTitle {
+    padding:3px;
+    display: inline-block;
+    font-family: "Clash", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #DF4646;
+    border-radius: 5px;
+}
+
+#updateLiveTitle {
+    padding:3px;
+    display: inline-block;
+    font-family: "Clash", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #DF4646;
+    border-radius: 5px;
 }
 
 @media (min-width: 320px) {
@@ -689,7 +716,7 @@ mark, .mark {
 
 @media (min-width: 1200px) {
     .hero__title {
-        font-size: 72px;
+        font-size: 70px;
     }
 }
 
@@ -701,7 +728,7 @@ mark, .mark {
 }
 
 .hero__wrapper .countdown__module {
-    max-width: 1400px;
+    max-width: 1460px;
     margin: 20px auto;
     padding: 10px;
     background-color: rgba(0,0,0,0.5);
@@ -711,7 +738,7 @@ mark, .mark {
 
 @media (min-width: 769px) {
     .hero__wrapper .countdown__module {
-        max-width: 1000px;
+        max-width: 1060px;
         margin: 20px auto;
     }
 }
@@ -2000,8 +2027,8 @@ mark, .mark {
 .countdown__module p {
     display: table-cell;
     vertical-align: middle;
-    font-size: 100px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
@@ -2016,18 +2043,18 @@ mark, .mark {
 
 @media (min-width: 1200px) {
     .countdown__module p {
-        font-size: 25px;
+        font-size: 15px;
     }
 }
 
 .countdown__module span {
     display: block;
-    font-family: "Work Sans", sans-serif;
-    font-size: 150px !important;
-    font-weight: 300;
+    font-family: "Clash", sans-serif;
+    font-size: 100px !important;
+    font-weight: 400 !important;
     line-height: 1;
     color: #fff;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 @media (min-width: 320px) {
