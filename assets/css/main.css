@@ -722,7 +722,7 @@ mark, .mark {
 
 .hero__wrapper {
     position: relative;
-    padding: 12px 0 50px;
+    padding: 220px 0 50px;
     z-index: 99;
     min-height: 100vh;
 }
