@@ -619,6 +619,21 @@ mark, .mark {
 /* 5. general_hero
 --------------------------------------------------------------------------------*/
 
+.owners {
+    display: flex !important;
+}
+
+.owners p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 3px;
+    width: 15%;
+}
+
 .hero {
     position: relative;
     background-size: cover;
@@ -722,7 +737,7 @@ mark, .mark {
 
 .hero__wrapper {
     position: relative;
-    padding: 220px 0 50px;
+    padding: 120px 0 50px;
     z-index: 99;
     min-height: 100vh;
 }
